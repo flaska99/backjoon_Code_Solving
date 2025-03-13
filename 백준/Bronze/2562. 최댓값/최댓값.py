@@ -3,4 +3,4 @@ num_list = list((map(int, li)))
 temp = 0
 for i in num_list :
     if i > temp : temp = i
-print(temp); print(num_list.index(temp)+1)   
+print(temp); print(num_list.index(temp)+1) 
