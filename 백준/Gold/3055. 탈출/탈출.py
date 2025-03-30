@@ -19,10 +19,6 @@ for i in range(n):
         if graph[i][j] == '*':
             water_que.append((i,j))
 
-
-
-
-
 t_x = [-1, 0, 1, 0]
 t_y = [0, 1, 0, -1]
 ## 물먼저 저 방향으로 늘어나고 그 다음 
@@ -58,10 +54,4 @@ while animal_que:
                     visited[nx][ny] = True
                     animal_que.append((nx, ny))
 
-if not animal_que:
-    print('KAKTUS')
-
-
-
-
-
+print('KAKTUS')
